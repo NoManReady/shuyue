@@ -5,7 +5,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-  // publicPath: `//localhost:9001`,
+  publicPath: process.env.NODE_ENV === "production" ? "/shuyue" : "/",
   outputDir: `../dist/${name}`,
   assetsDir: "static",
   filenameHashing: true,
