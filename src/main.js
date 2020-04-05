@@ -23,7 +23,6 @@ export async function mount({ data = {} } = {}) {
 export async function unmount() {
   instance.$destroy();
   instance = null;
-  router = null;
 }
 
 // 单独开发环境
