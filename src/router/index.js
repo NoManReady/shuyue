@@ -24,7 +24,7 @@ if (window.__POWERED_BY_QIANKUN__) {
 }
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "hash",
   base,
   routes
 });
