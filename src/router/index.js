@@ -15,12 +15,6 @@ const routes = [
 let base = "/";
 if (window.__POWERED_BY_QIANKUN__) {
   base = "/app/shuyue";
-} else {
-  if (process.env.NODE_ENV === "production") {
-    base = "/shuyue";
-  } else {
-    base = "/";
-  }
 }
 
 const router = new VueRouter({
