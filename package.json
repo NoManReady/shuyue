@@ -2,6 +2,7 @@
   "name": "shuyue",
   "version": "0.1.0",
   "private": true,
+  "k":"0a9c5426148cef35975f5cf70f866f1da8172289",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
